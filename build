@@ -1,5 +1,6 @@
 # build the docker image
-mkdir -p dist/etc/ansible
+mkdir -p dist/ansible
+
 cat << EOF > dist/ansible/hosts
 [servers]
 host1 ansible_ssh_host=192.0.2.1
